@@ -4,15 +4,25 @@
     <meta charset="utf-8" />
     <title>js-test game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="game-container">
+    <div class="rate-block">
+        <div>Счет: </div>
+        <div class="rate-value"></div>
+        
+    </div>
+    <div class="game-field-container" id="game">
+        <div class="game-cell">
+
+        </div>
 
     </div>
-
-    <input type="number">
+    <div>
+        <label for="ms-input-field" >Миллисекунды</label>
+        <input id="ms-input-field" type="number" min="0">
+    </div>
     <button>Начать</button>
     
 </body>
